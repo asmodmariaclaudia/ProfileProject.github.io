@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Quicksand:wght@300..700&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+body{
+    background-image: url("../bgs/webbg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    image-rendering:crisp-edges;
+}
+
+/* header */
+header{
+    text-align: center;
+}
+
+header > h2{
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: 5px;
+    font-size: 4em;
+    text-shadow: 0 0 5px #daff06,
+                 0 0 10px #e8b7ee;
+}
+
+header > h5{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 2em;
+    max-width: 55%;
+    margin: 0 auto;
+    text-shadow: 0 0 5px #ffe606,
+                 0 0 10px #e8b7ee;
+}
+
+
+/* navigation */
+.nav{
+    text-align: center;
+}
+
+.nav-list > li{
+    font-family: "Quicksand", sans-serif;
+    font-size: 150%;
+    font-weight: 800;
+    padding: 5%;
+    display: inline;
+}
+
+/* web */
+.webs{
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.web1, .web2{
+    box-sizing: border-box;
+    list-style: none;
+    text-justify: inter-word;
+    display: inline-block;
+    padding: 0;
+    max-width: 30%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 120%;
+    border-radius: 8%;
+}
+
+p{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 150%;
+    padding: 0;
+    margin: 0;
+}
+
+/* imgs */
+img{
+    padding: 1%;
+    width: 100%;
+    height: 100%;
+    transition: 1s ease;
+}
+
+img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px #b3aab4;
+}
+
+a:hover {
+    color: #f9d905;
+    text-shadow: 0 0 10px #b3aab4;
+}

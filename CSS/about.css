@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Quicksand:wght@300..700&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+body{
+    background-image: url("../bgs/webbg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    image-rendering:crisp-edges;
+}
+
+/* header */
+header{
+    text-align: center;
+}
+
+header > h2{
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: 5px;
+    font-size: 4em;
+    text-shadow: 0 0 5px #ffb406,
+                 0 0 10px #e8b7ee;
+}
+
+/* navigation */
+.nav{
+    text-align: center;
+}
+
+.nav-list > li{
+    font-family: "Quicksand", sans-serif;
+    font-size: 150%;
+    font-weight: 800;
+    padding: 5%;
+    display: inline;
+}
+
+/* sections */
+section{
+    background-color: rgba(183, 151, 109, 0.683);
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+section > h2, h1{
+    font-family: "Quicksand", sans-serif;
+    font-size: 180%;
+    padding: 0;
+}
+
+section > h1{
+    font-size: 3em;
+}
+
+section > p{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 200%;
+    padding: 0;
+}
+
+.hobs{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style: none;
+}
+
+.hobs > li{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 200%;
+    padding: 1.5px;
+    line-height: 150%;
+}
+
+a{
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #ffe606;
+    text-shadow: 0 0 5px #ffefbb;
+}
